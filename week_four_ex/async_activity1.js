@@ -9,7 +9,7 @@ fs.readFile('subjects.txt', 'utf8', function(err, contents) {
 
 });
  
-console.log('after calling readFile');
+
 
 
 //Define Array
@@ -17,7 +17,7 @@ const items = ['nuts', 'fish', 'lentils', 'whole grains', 'beans', 'olive oil', 
 
 //items.forEach(x => console.log(x));
 //Call this function
-outputItems();
+//outputItems();
 
 //Some function to convert items into array
 function itemsToArray(contents){
